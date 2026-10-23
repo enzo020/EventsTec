@@ -66,6 +66,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-s3</artifactId>
+			<version>1.12.320</version>
+		</dependency>
+
 		<!-- Flyway: o starter traz o flyway-core e a autoconfiguração do Spring Boot 4 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

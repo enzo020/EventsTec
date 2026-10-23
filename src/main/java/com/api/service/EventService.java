@@ -24,9 +24,12 @@ public class EventService {
         newEvent.setDescription(data.description());
         newEvent.setEventUrl(data.eventUrl());
         newEvent.setDate(new Date(data.date()));
+        newEvent.setImgUrl(imgUrl);
+
+        return newEvent;
     }
 
     private String uploadImg(MultipartFile multipartFile){
-        return "";
+
     }
 }
